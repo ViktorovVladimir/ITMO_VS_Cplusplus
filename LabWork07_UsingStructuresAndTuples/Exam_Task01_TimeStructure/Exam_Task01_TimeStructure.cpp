@@ -63,7 +63,7 @@ struct Time
 
         if( diff < 0 ) 
         {
-            std::cout << "The result of subtraction is negative, return 0:00:00\n";
+            cout << "The result of subtraction is negative, return 0:00:00\n";
             return { 0, 0, 0 };
         }
 
