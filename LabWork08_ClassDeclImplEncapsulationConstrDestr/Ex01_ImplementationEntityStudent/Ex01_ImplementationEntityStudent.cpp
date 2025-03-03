@@ -1,4 +1,4 @@
-// LabWork04_UsingPointersAndLinks.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Ex01_ImplementationEntityStudent.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>

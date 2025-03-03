@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LabWork04_UsingPointersAndLinks.cpp">
+    <ClCompile Include="Ex01_ImplementationEntityStudent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

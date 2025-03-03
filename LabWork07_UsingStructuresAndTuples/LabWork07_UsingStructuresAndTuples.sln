@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex01_ImplementingDistanceSt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex02_PassingStrucToFunctionByRef", "Ex02_PassingStrucToFunctionByRef\Ex02_PassingStrucToFunctionByRef.vcxproj", "{AADD0DFA-27AD-449B-A72B-A41C7B57255F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex03_UsingArrayOfStructures", "..\Ex03_UsingArrayOfStructures\Ex03_UsingArrayOfStructures.vcxproj", "{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex04_UsingTuplesToRepresentData", "Ex04_UsingTuplesToRepresentData\Ex04_UsingTuplesToRepresentData.vcxproj", "{65B956DF-4BD3-460F-A285-CDACF4F0E45D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex05_ReturningTupleFromFunction", "Ex05_ReturningTupleFromFunction\Ex05_ReturningTupleFromFunction.vcxproj", "{7EC9CC4E-598F-4064-A662-A0D118303256}"
@@ -18,6 +16,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exam_Task02_SolvingQuadraticEquation", "Exam_Task02_SolvingQuadraticEquation\Exam_Task02_SolvingQuadraticEquation.vcxproj", "{085B446F-7641-4D76-85FD-F2CFAE440428}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exam_Task03_SolvingQuadraticEquation", "Exam_Task03_SolvingQuadraticEquation\Exam_Task03_SolvingQuadraticEquation.vcxproj", "{F4FBBD35-19B4-4EDD-AF5C-742F78319F54}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex03_UsingArrayOfStructures", "Ex03_UsingArrayOfStructures\Ex03_UsingArrayOfStructures.vcxproj", "{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,14 +43,6 @@ Global
 		{AADD0DFA-27AD-449B-A72B-A41C7B57255F}.Release|x64.Build.0 = Release|x64
 		{AADD0DFA-27AD-449B-A72B-A41C7B57255F}.Release|x86.ActiveCfg = Release|Win32
 		{AADD0DFA-27AD-449B-A72B-A41C7B57255F}.Release|x86.Build.0 = Release|Win32
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x64.ActiveCfg = Debug|x64
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x64.Build.0 = Debug|x64
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x86.ActiveCfg = Debug|Win32
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x86.Build.0 = Debug|Win32
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x64.ActiveCfg = Release|x64
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x64.Build.0 = Release|x64
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x86.ActiveCfg = Release|Win32
-		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x86.Build.0 = Release|Win32
 		{65B956DF-4BD3-460F-A285-CDACF4F0E45D}.Debug|x64.ActiveCfg = Debug|x64
 		{65B956DF-4BD3-460F-A285-CDACF4F0E45D}.Debug|x64.Build.0 = Debug|x64
 		{65B956DF-4BD3-460F-A285-CDACF4F0E45D}.Debug|x86.ActiveCfg = Debug|Win32
@@ -91,6 +83,14 @@ Global
 		{F4FBBD35-19B4-4EDD-AF5C-742F78319F54}.Release|x64.Build.0 = Release|x64
 		{F4FBBD35-19B4-4EDD-AF5C-742F78319F54}.Release|x86.ActiveCfg = Release|Win32
 		{F4FBBD35-19B4-4EDD-AF5C-742F78319F54}.Release|x86.Build.0 = Release|Win32
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x64.ActiveCfg = Debug|x64
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x64.Build.0 = Debug|x64
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Debug|x86.Build.0 = Debug|Win32
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x64.ActiveCfg = Release|x64
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x64.Build.0 = Release|x64
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x86.ActiveCfg = Release|Win32
+		{CFB8814F-8BC6-4F2A-97EC-4D9E20714EC0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

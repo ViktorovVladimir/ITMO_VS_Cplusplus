@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e00fffb8-ff32-4a9b-ac11-9b548a58d6de}</ProjectGuid>
-    <RootNamespace>LabWork04UsingPointersAndLinks</RootNamespace>
+    <ProjectGuid>{9a33a02c-bb96-4f57-87e8-e82e93c0c7ea}</ProjectGuid>
+    <RootNamespace>Ex01ImplementationEntityStudent</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LabWork04_UsingPointersAndLinks.cpp" />
+    <ClCompile Include="Ex01_ImplementationEntityStudent.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
