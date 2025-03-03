@@ -22,6 +22,19 @@ struct Time
     int seconds;
 
     //--.
+    bool isCorrectTime()
+    {
+        //--.
+        if( hours < 0 || minutes < 0 || minutes >= 60 || seconds < 0 || seconds >= 60)
+        {
+            cout << "\n\nIncorrect time.\n";
+            return false;
+        }
+        return true;
+    }
+
+
+    //--.
     int toSeconds() const 
     {
         return seconds + minutes * 60 + hours * 3600;
@@ -64,20 +77,6 @@ struct Time
 
 };
 
-//-------------------------------------------
-//--.
-bool isCorrectTime(Time &time)
-{   
-    //--.
-    if (time.hours < 0 || time.minutes < 0 || time.minutes >= 60 || time.seconds < 0 || time.seconds >= 60)
-    {
-        cout << "\n\nIncorrect time.\n";
-        return false;
-    }
-
-    return true;
-}   
-    
     
 //--
 int main()
@@ -88,7 +87,7 @@ int main()
     cout << "Enter time (hours, minutes, seconds):";
     cin >> time1.hours >> time1.minutes >> time1.seconds;
     //--.
-    if( !isCorrectTime(time1) )
+    if( !time1.isCorrectTime() )
     {
         return 1;
     }
@@ -100,7 +99,7 @@ int main()
     cout << "Enter the second time (hours, minutes, seconds): ";
     cin >> time2.hours >> time2.minutes >> time2.seconds;
     //--.
-    if( !isCorrectTime(time2) )
+    if( !time2.isCorrectTime() )
     {
         return 1;
     }
