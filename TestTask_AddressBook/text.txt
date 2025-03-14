@@ -1,0 +1,2 @@
+Student: Petrov Mihail, Phone: +79113322122, Major: non
+Colleague: Karpichev Boris, Phone: +79013221303, Job Title: my friend
